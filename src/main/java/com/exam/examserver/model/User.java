@@ -21,7 +21,16 @@ public class User {
 				
 				private String email;
 				private String phone;
+				private String profile;
 				
+				public String getProfile() {
+					return profile;
+				}
+
+				public void setProfile(String profile) {
+					this.profile = profile;
+				}
+
 				private boolean enabled=true;
 
 				public Long getId() {
