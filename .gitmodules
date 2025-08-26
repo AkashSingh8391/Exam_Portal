@@ -1,0 +1,3 @@
+[submodule "ExamFront"]
+	path = ExamFront
+	url = https://github.com/AkashSingh8391/ExamFrontend.git
