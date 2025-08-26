@@ -14,10 +14,10 @@ import com.exam.examserver.model.UserRole;
 import com.exam.examserver.service.UserService;
 
 @SpringBootApplication
-public class ExamserverApplication implements CommandLineRunner{
+public class ExamserverApplication /*implements CommandLineRunner */{
 
-	@Autowired
-	private UserService userservice;
+	//@Autowired
+	//private UserService userservice;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ExamserverApplication.class, args);
@@ -26,6 +26,8 @@ public class ExamserverApplication implements CommandLineRunner{
 			
 		
 	}
+	
+	/*
 
 	@Override
 	public void run(String... args) throws Exception {
@@ -59,6 +61,6 @@ public class ExamserverApplication implements CommandLineRunner{
 		
 	}
 	
-	
+	*/
 
 }
