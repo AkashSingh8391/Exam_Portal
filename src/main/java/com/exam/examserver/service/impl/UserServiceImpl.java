@@ -46,6 +46,14 @@ public class UserServiceImpl implements UserService {
 		// TODO Auto-generated method stub
 		return this.userRepository.findByUsername(username);
 	}
+
+
+	@Override
+	public void deleteUser(Long userId) {
+		// TODO Auto-generated method stub
+		this.userRepository.deleteById(userId);
+		
+	}
 	
 
 }
