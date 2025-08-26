@@ -39,6 +39,13 @@ public class UserServiceImpl implements UserService {
 		
 		return local;
 	}
+
+
+	@Override
+	public User getUser(String username) {
+		// TODO Auto-generated method stub
+		return this.userRepository.findByUsername(username);
+	}
 	
 
 }
